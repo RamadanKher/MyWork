@@ -1,0 +1,136 @@
+:root {
+  --color-primary: #ff014f;
+  --color-secondary: #f4f5f6;
+}
+body {
+  background-color: #212529;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+/* header */
+.navbar .navbar-brand {
+  letter-spacing: 2px;
+}
+
+
+.navbar .navbar-brand span {
+  color: var(--color-primary);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+}
+.navbar-dark .navbar-nav .nav-link {
+  padding: 0 1rem;
+  font-size: 14px;
+  font-weight: 500;
+  transition: transform 0.5s ease;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  transform: translateY(3px);
+}
+/* main section */
+.mainSection {
+  height: calc(100vh - 62px);
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+}
+
+.main--img {
+  box-shadow: rgb(28, 30, 34) 10px 10px 19px 0px,
+    rgb(38, 42, 46) -10px -10px 19px 0px;
+}
+.about--title :nth-child(1) {
+  color: var(--color-primary);
+}
+.about--title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+}
+.about--item h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: #c4cfde;
+}
+.about--item:last-child {
+  color: #c4cfde;
+}
+.social--icon a{
+  padding: 0.6rem;
+  margin-right: 0.3rem;
+  border-radius: 6px;
+  box-shadow: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
+  transition: 1s ease;
+  display: inline-block;
+}
+.social--icon a:hover{
+  box-shadow: inset 21px 21px 19px #1f1f1f, inset -21px -21px 19px #4b4b4b;
+
+  transform: translateY(-3px);
+
+}
+@media screen and (max-width: 992px) {
+  .about--title {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 1rem;
+  }
+}
+#particles-js {
+  height: 100vh;
+  position: absolute;
+  /* background-color: red; */
+  width: 100%;
+  z-index: -1;
+}
+/* section my work  */
+.ProjectsStyles{
+ border-radius: 10px;
+}
+.myWork--title{
+  font-size: 50px;
+  font-weight: 700;
+  color: #c4cfde;
+  margin-bottom: 0;
+}
+.mywork--item{
+  height: 50vh;
+  overflow: hidden;
+}
+.mywork--item img{
+  transition:transform 10s ease 0s ;
+  border-radius: 5px;
+
+}
+.mywork--item:hover img {
+  transform: translateY(-70%);
+}
+#liveDemo a{
+  color: white;
+  transition: 1s ease  ;
+  font-weight: bold;
+  
+
+}
+#liveDemo a:hover{
+  color: var(--color-primary);
+
+}
+#liveDemo a:hover+ img{
+    top: 0;
+}
+#liveDemo img{
+  position: relative;
+  top: 20px;
+  transition: 0.5s ease;
+}
