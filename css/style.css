@@ -7,6 +7,9 @@ body {
   font-family: "Montserrat", sans-serif;
   color: white;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 a{
   text-decoration: none;
@@ -52,8 +55,8 @@ a{
 }
 .about--title {
   font-weight: 700;
-  font-size: 50px;
-  line-height: 70px;
+  font-size: 30px;
+  line-height: 36px;
 }
 .about--item h3 {
   font-size: 14px;
@@ -66,8 +69,8 @@ a{
   color: #c4cfde;
 }
 .social--icon a{
-  padding: 0.6rem;
-  margin-right: 0.3rem;
+  padding: 0.5rem;
+  margin-right: 0.2rem;
   border-radius: 6px;
   box-shadow: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
   transition: 1s ease;
