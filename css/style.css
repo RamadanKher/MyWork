@@ -110,6 +110,10 @@ a{
   height: 50vh;
   overflow: hidden;
 }
+.item-noTranslate {
+  height: 50vh;
+  overflow: hidden;
+}
 .mywork--item img{
   transition:transform 10s ease 0s ;
   border-radius: 5px;
