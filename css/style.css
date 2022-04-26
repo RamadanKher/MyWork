@@ -55,8 +55,8 @@ a{
 }
 .about--title {
   font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 38px;
+  line-height: 45px;
 }
 .about--item h3 {
   font-size: 14px;
@@ -141,3 +141,4 @@ a{
   top: 20px;
   transition: 0.5s ease;
 }
+
